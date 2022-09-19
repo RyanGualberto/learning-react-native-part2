@@ -1,15 +1,15 @@
 module.exports = {
-  client: "rootSql",
+  client: "",
   connection: {
-    database: "tasks",
-    user: "root",
-    password: "1234",
+    database: "",
+    user: "",
+    password: "",
   },
   pool: {
-    min: 2,
-    max: 10,
+    min: ,
+    max: ,
   },
   migrations: {
-    tableName: "knex_migrations",
+    tableName: "",
   },
 };
